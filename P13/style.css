@@ -1,0 +1,21 @@
+.item {
+  text align:center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.flex-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flex-layout .item {
+  flex: 1 1 180px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}

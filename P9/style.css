@@ -1,0 +1,30 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  flex: 1 1 250px;
+  min-height: 150px;
+  padding: 40px;
+  color: white;
+  background-color: blue;
+}
+
+.card h2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin: 0;
+}

@@ -1,0 +1,41 @@
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "projects-title projects-title projects-title"
+    "project-one project-two project-three"
+    "hobbies-title hobbies-title hobbies-title"
+    "hobby-one hobby-two hobby-three";
+  gap: 20px;
+}
+.projects-title {
+  grid-area: projects-title;
+}
+
+.project-one {
+  grid-area: project-one;
+}
+
+.project-two {
+  grid-area: project-two;
+}
+
+.project-three {
+  grid-area: project-three;
+}
+
+.hobbies-title {
+  grid-area: hobbies-title;
+}
+
+.hobby-one {
+  grid-area: hobby-one;
+}
+
+.hobby-two {
+  grid-area: hobby-two;
+}
+
+.hobby-three {
+  grid-area: hobby-three;
+}

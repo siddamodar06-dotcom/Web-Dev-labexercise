@@ -1,0 +1,29 @@
+.navbar {
+  position: sticky;
+  top:0;
+}
+
+.card-row {
+  display: flex;
+  gap: 40px;
+}
+
+.card-row + .card-row {
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  flex: 1;
+  min-height: 150px;
+  padding: 40px;
+  color: white;
+  background-color: blue;
+}
+
+.card h2 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin: 0;
+}
